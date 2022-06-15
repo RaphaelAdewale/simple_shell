@@ -12,7 +12,6 @@ For best results, files should be compiled with
 ```sh
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o grsh
 ```
-
 ### Usage
 
 The grsh has two modes: **Interactive** in which the shell takes the commands from the standard input, executes them and gets ready to read another command-line.
@@ -22,7 +21,6 @@ As an example you can use the <b>ls</b> command for listing files in the current
 ```sh
 $ ls
 _atoi.c AUTHORS built_ins.c _environ.c _error_handler.c main.h Makefile
-$ 
 ```
 The other mode is "Non-interactive". For this, the command should be passed thru a pipe
 ```sh
